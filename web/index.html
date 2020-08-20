@@ -7,13 +7,27 @@ and open the template in the editor.
 <html>
     <head>
         <title>TODO supply a title</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link href="./CSS/bootstrap.css" rel="stylesheet" type="text/css"/>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <div>
-            <a href="controlador?f_accion=listarpersona">Listar Personas</a>
-            
+        <div class="hero-unit"> 
+            <h1 align="center">Bienvenido</h1>
+            <p align="center">Elija una Opción:</p>
+            <p align="center">
+            <a class="btn btn-success btn-lg" href="controladorpersona?f_accion=listarpersona"><i class="fa fa-user"></i> Listar Personal</a
+            </p>
+            <p align="center">
+            <a class="btn btn-success btn-lg" href="controladorarea?f_accion=listararea"><i class="fa fa-users"></i> Listar Area</a>
+            </p>
+            <p align="center">
+            <a class="btn btn-success btn-lg" href="controladorrol?f_accion=listarrol"><i class="fa fa-search"></i> Listar Rol</a>
+            </p>
+            <p align="center">
+            <a class="btn btn-success btn-lg" href="controladorsugerencia?f_accion=listarsugerencia"><i class="fa fa-id-card"></i> Listar Sugerencia</a>
+            </p>
         </div>
     </body>
 </html>
