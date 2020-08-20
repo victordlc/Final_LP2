@@ -100,5 +100,10 @@ public class rolDAO implements rolCRUD{
         return false;
         
     }
+
+    @Override
+    public boolean eliminareol(int idrol) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }
